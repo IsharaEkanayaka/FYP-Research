@@ -13,7 +13,7 @@ source: https://doi.org/10.1109/ACCESS.2025.3586416
 ---
 
 # 🧠 Summary
-This paper proposes an enhanced distributed backdoor attack (DBA) method for federated learning that uses density-adaptive data poisoning and projection-based gradient updating. Unlike traditional DBAs that use uniform triggers, this approach decomposes global triggers into sub-triggers aligned with client data distributions (using edge structures) and constrains malicious gradient updates to mimic legitimate patterns. On COCO dataset, the method achieves 92.44% main task accuracy with 91.68% attack success rate, outperforming baseline DBA by +8.04% MTA and +10.29% ASR while evading six state-of-the-art defenses.
+This paper proposes an enhanced distributed [[backdoor]] attack (DBA) method for [[Federated Learning]] that uses density-adaptive data [[poisoning]] and projection-based gradient updating. Unlike traditional DBAs that use uniform triggers, this approach decomposes global triggers into sub-triggers aligned with client data distributions (using edge structures) and constrains malicious gradient updates to mimic legitimate patterns. On COCO dataset, the method achieves 92.44% main task accuracy with 91.68% attack success rate, outperforming baseline DBA by +8.04% MTA and +10.29% ASR while evading six state-of-the-art defenses.
 
 
 ---
@@ -110,7 +110,7 @@ Traditional distributed backdoor attacks in federated learning suffer from two k
 # 🧩 Related Works
 > How does this relate to other papers or concepts?
 
-- Builds on [[backdoor]]
+- Builds on
 - Similar to 
 - Contradicts 
 

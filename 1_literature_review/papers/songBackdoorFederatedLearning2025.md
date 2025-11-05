@@ -15,7 +15,7 @@ source: https://doi.org/10.3390/electronics14010129
 
 # 🧠 Summary
 
-This paper introduces **KPBAFL (Key Parameter Backdoor Attack in Federated Learning)**, a stealthy backdoor attack framework that selectively poisons only the **key parameters** of federated learning (FL) models instead of the entire network. By focusing on parameters most critical to decision-making, KPBAFL achieves a high **attack success rate (ASR > 96.5%)** while maintaining high **benign task accuracy (BTA ≈ 97.8%)**. The method adapts dynamically to the server’s responses using a **beacon feedback mechanism**, enabling it to remain undetected even under advanced defenses such as **FLAME, Fldetector, Rflbat, and Deepsight**.
+This paper introduces **KPBAFL (Key Parameter [[backdoor]] Attack in [[Federated Learning]])**, a stealthy backdoor attack framework that selectively poisons only the **key parameters** of federated learning (FL) models instead of the entire network. By focusing on parameters most critical to decision-making, KPBAFL achieves a high **attack success rate (ASR > 96.5%)** while maintaining high **benign task accuracy (BTA ≈ 97.8%)**. The method adapts dynamically to the server’s responses using a **beacon feedback mechanism**, enabling it to remain undetected even under advanced defenses such as **FLAME, Fldetector, Rflbat, and Deepsight**.
 
 
 
